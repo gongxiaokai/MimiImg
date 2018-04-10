@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  MimiImg
+//
+//  Created by gongwenkai on 2018/2/26.
+//  Copyright © 2018年 gongwenkai. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+
+//#import <UIKit/UIKit.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <Foundation/Foundation.h>
+#import "GlobalHeader.h"
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry/Masonry.h>
+
+//DEBUG模式下,打印日志(包括函数名、行号)
+#ifdef DEBUG
+# define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+# define NLog(...)
+#endif

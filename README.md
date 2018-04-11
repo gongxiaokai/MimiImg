@@ -24,6 +24,9 @@
 去后台打开API 获得API KEY
 ![API_KEY](https://upload-images.jianshu.io/upload_images/4009159-b4aa98ba33a4886f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+搭完后就是这样[米米图床](https://imgurl.xyz)
+![米米图床](https://upload-images.jianshu.io/upload_images/4009159-0f01c0070f7d64ca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 使用cocoaPods 管理第三方。
 打开iCloud最简单的Key-Value存储功能
 ![iCloud](https://upload-images.jianshu.io/upload_images/4009159-dd44ed299b70a564.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
